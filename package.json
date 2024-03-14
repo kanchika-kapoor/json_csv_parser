@@ -1,0 +1,20 @@
+{
+  "name": "json-csv-parser",
+  "version": "1.0.0",
+  "description": "json and csv parser in Typescript(OOP)",
+  "main": "index.js",
+  "author": "kanchika-kapoor",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "-tsc -w",
+    "test": "echo \"Error no test specified\" && exit 1",
+    "exec": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "~10.9.2",
+    "typescript": "~5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27"
+  }
+}
